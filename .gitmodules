@@ -1,0 +1,15 @@
+[submodule "pcl"]
+	path = pcl
+	url = https://github.com/simonleonard/pcl.git
+[submodule "vlfeat"]
+	path = vlfeat
+	url = https://github.com/simonleonard/vlfeat.git
+[submodule "opencv"]
+	path = opencv
+	url = https://github.com/simonleonard/opencv.git
+[submodule "openMVG"]
+	path = openMVG
+	url = https://github.com/simonleonard/openMVG.git
+[submodule "sfm"]
+	path = sfm
+	url = https://git.lcsr.jhu.edu/sleonar7/sfm.git
