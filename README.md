@@ -42,6 +42,8 @@ find vl -name "*h" -exec cp --parents {} $WS/include \;
 cp bin/glnxa64/libvl.so $WS/lib
 
 # build SFM
+cd $WS/src/sinus/sfm
+git checkout master
 cd $WS
 catkin init
 catkin build
