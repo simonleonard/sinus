@@ -13,3 +13,6 @@
 [submodule "sfm"]
 	path = sfm
 	url = https://git.lcsr.jhu.edu/sleonar7/sfm.git
+[submodule "opencv_contrib"]
+	path = opencv_contrib
+	url = https://github.com/opencv/opencv_contrib.git
