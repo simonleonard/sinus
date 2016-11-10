@@ -46,4 +46,4 @@ cd $WS/src/sinus/sfm</br>
 git checkout master</br>
 cd $WS</br>
 catkin init</br>
-catkin build -DOpenCV_DIR=/home/sleonard/src/sinus/share/OpenCV</br>
+catkin build -DOpenCV_DIR=$WS/share/OpenCV</br>
