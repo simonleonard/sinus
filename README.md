@@ -17,7 +17,7 @@ git submodule update</br>
 # Build open cv 3 with cuda
 mkdir -p opencv/build</br>
 cd opencv/build</br>
-cmake .. -DCMAKE_INSTALL_PREFIX=$WS -DCMAKE_BUILD_TYPE=Release -DBUILD_PERF_TESTS=OFF -DBUILD_TESTS=OFF -DOPENCV_EXTRA_MODULES_PATH=$WS/src/sinus/opencv_contrib/modules</br>
+cmake .. -DCMAKE_INSTALL_PREFIX=$WS -DCMAKE_BUILD_TYPE=Release -DOPENCL_FOUND -DBUILD_PERF_TESTS=OFF -DBUILD_TESTS=OFF -DOPENCV_EXTRA_MODULES_PATH=$WS/src/sinus/opencv_contrib/modules</br>
 make -j20 install</br>
 
 # Build open MVG
